@@ -4,7 +4,7 @@
 #include "DHT11.h"
 #include "Relay.h"
  u8 TempH, TempL, HumiH, HumiL;
- //2023年12月1723点54分-运行成功--缺点读取速度慢
+ //2023年12月1723点54分-运行成功--DHT11缺点读取速度慢
 int main(void)
 {
 
