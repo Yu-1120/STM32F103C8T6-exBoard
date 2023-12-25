@@ -14,7 +14,7 @@ u8 Flag_Error = 0;
 //当发现测试出来的重量偏大时，增加该数值。
 //如果测试出来的重量偏小时，减小改数值。
 //该值可以为小数
-#define GapValue 106.5
+#define GapValue 2000`
 
 
 void Init_HX711pin(void)
@@ -88,7 +88,7 @@ void Get_Weight(void)
 	
 		Weight_Shiwu = (s32)((float)Weight_Shiwu/GapValue); 	//计算实物的实际重量
 																		//因为不同的传感器特性曲线不一样，因此，每一个传感器需要矫正这里的GapValue这个除数。
-																		//当发现测试出来的重量偏大时，增加该数值。
+																   //当发现测试出来的重量偏大时，增加该数值。
 																		//如果测试出来的重量偏小时，减小改数值。
 	}
 
