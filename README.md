@@ -18,11 +18,13 @@ STM32F103C8T6扩展板
 
 
 
+## 文章
+
+[STM32F103C8T6简介（1）-CSDN博客](https://blog.csdn.net/Yu19865187485/article/details/135954195)
 
 
 
 
 
-
-
+## 参考B站江科大
 
