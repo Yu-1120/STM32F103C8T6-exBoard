@@ -12,8 +12,8 @@
 #define WiFi_RX_BUF       Usart2_RxBuff       //串口2控制 WiFi
 #define WiFi_RXBUFF_SIZE  USART2_RXBUFF_SIZE  //串口2控制 WiFi
 
-#define SSID   "ikun"                          //路由器SSID名称
-#define PASS   "hongpeiyu1120"                    //路由器密码  //23-11-30可以连上wifi
+#define SSID   "72B319"                          //路由器SSID名称
+#define PASS   "xiao760914aa"                    //路由器密码  //23-11-30可以连上wifi
 
 
 extern int ServerPort;
