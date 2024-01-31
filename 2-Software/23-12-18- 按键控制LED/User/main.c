@@ -5,10 +5,8 @@
 
 uint8_t KeyNum;		//定义用于接收按键键码的变量
 //2023年12月18日15点51分--运行成功
-//
 int main(void)
 {
-	/*模块初始化*/
 	LED_Init();		//LED初始化
 	Key_Init();		//按键初始化
 	LED1_ON();			//LED1翻转

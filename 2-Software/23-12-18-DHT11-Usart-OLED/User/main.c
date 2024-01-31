@@ -10,7 +10,10 @@
 uint8_t i=0,j=0;
 
 uint8_t temp,humi,tempL;
-//2023年12月18日10点20分运行成功--
+//2023年12月18日10点20分 successful
+//2024年1月31日11点02分 successful
+
+
 u8 temp,humi;
 
 int main(void)
@@ -21,10 +24,6 @@ int main(void)
     OLED_Init();		//OLED初始化
     	/*OLED显示*/
 	OLED_ShowString(1, 1, "HelloWorld!");	//1行3列显示字符串HelloWorld!
-	
-
-    
-
     while(1)
     {  
         DHT11_Read_Data(&temp,&humi,&tempL);
@@ -32,18 +31,10 @@ int main(void)
         
         if (DHT11_Read_Data(&temp,&humi,&tempL) == 0)
         {
-            
-        
-            
             OLED_ShowString(2, 1, "Temp:");
             OLED_ShowNum(2,6, temp, 2);
-
-            
             OLED_ShowString(3, 1, "Humi:");
             OLED_ShowNum(3,6, humi, 2);
-       
-            
-          
             
         }
         else
