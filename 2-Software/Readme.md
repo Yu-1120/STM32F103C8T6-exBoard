@@ -1,5 +1,19 @@
 # 软件测试
 
+## 文章
+
+[STM32F103C8T6简介（1）-CSDN博客](https://blog.csdn.net/Yu19865187485/article/details/135954195?csdn_share_tail={"type"%3A"blog"%2C"rType"%3A"article"%2C"rId"%3A"135954195"%2C"source"%3A"Yu19865187485"})
+
+
+
+
+
+
+
+
+
+
+
 ## 硬件验证
 
 
