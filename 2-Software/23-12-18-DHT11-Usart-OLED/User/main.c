@@ -10,8 +10,7 @@
 uint8_t i=0,j=0;
 
 uint8_t temp,humi,tempL;
-//2023年12月18日10点20分 successful
-//2024年1月31日11点02分 successful
+
 
 
 u8 temp,humi;
