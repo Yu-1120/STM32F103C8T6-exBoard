@@ -262,27 +262,6 @@ void OLED_ShowBinNum(uint8_t Line, uint8_t Column, uint32_t Number, uint8_t Leng
 		OLED_ShowChar(Line, Column + i, Number / OLED_Pow(2, Length - i - 1) % 2 + '0');
 	}
 }
-/************************************
- * 函数名       OLED_ShowChinese
- * 功能        显示汉字
- * 参数Line    设置显示字符所在的行  1~4
- * 参数Column  设置显示字符所在的列  1~8
- * 参数num     设置显示字符在点阵中的序号
- ***********************************/
-void OLED_ShowChinese(uint8_t Line,uint8_t Column,uint8_t num)
-{
-    uint8_t i;
-    OLED_SetCursor((Line - 1) * 2, (Column - 1) * 16);
-    for(i = 0;i<16;i++)
-    {
-        OLED_WriteData(Font_Chinese[2*num][i]);
-    }
-    OLED_SetCursor((Line - 1) * 2 + 1, (Column - 1) * 16);
-    for(i = 0;i<16;i++)
-     {
-         OLED_WriteData(Font_Chinese[2*num+1][i]);
-     }
-}
 
 /**
   * @brief  OLED初始化
@@ -339,31 +318,4 @@ void OLED_Init(void)
 	OLED_WriteCommand(0xAF);	//开启显示
 		
 	OLED_Clear();				//OLED清屏
-}
-
-
-//状(14) 态(15) 已(16) 连(17) 接(18) 未(19)
-void OLED_STAR(void)//工0，作1，模2，式3，温4，湿5，度6，手7，自8，动9，℃10,烟11，雾12，浓13
-{	OLED_ShowChinese(1,1,0);
-	OLED_ShowChinese(1,2,1);
-	OLED_ShowChinese(1,3,2);
-	OLED_ShowChinese(1,4,3);
-	OLED_ShowString(1,9,":");
-	OLED_ShowChinese(1,6,7);
-	OLED_ShowChinese(1,7,9);
-	OLED_ShowChinese(2,1,4);
-	OLED_ShowChinese(2,2,6);
-	OLED_ShowString(2,5,":");
-	OLED_ShowChinese(2,6,10);
-	OLED_ShowChinese(3,1,5);
-	OLED_ShowChinese(3,2,6);
-	OLED_ShowString(3,5,":");
-	OLED_ShowString(3,9,"%");
-	OLED_ShowString(4,1,"WIFI");
-	OLED_ShowChinese(4,3,14);
-	OLED_ShowChinese(4,4,15);
-	OLED_ShowString(4,9,":");
-	OLED_ShowChinese(4,6,19);
-	OLED_ShowChinese(4,7,17);
-	OLED_ShowChinese(4,8,18);
 }
