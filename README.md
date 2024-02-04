@@ -2,6 +2,18 @@
 
 
 
+### 地址
+
+[Yu-1120/STM32F103C8T6-exBoard: STM32F103C8T6扩展板 (github.com)](https://github.com/Yu-1120/STM32F103C8T6-exBoard)
+
+
+
+[STM32F103C8T6-exBorad: STM32F103C8T6扩展板 (gitee.com)](https://gitee.com/its-a-slap/STM32F103C8T6-exBorad)
+
+
+
+
+
 ## 介绍
 
 
