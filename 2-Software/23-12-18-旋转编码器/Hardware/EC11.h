@@ -10,6 +10,6 @@
 
 void EC11_Init(void);
 
-
-
+void EC11_increase(void);
+void EC11_reduce(void);
 #endif
