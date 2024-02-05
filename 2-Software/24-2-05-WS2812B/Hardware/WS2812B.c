@@ -150,10 +150,10 @@ void WS2812B_Test(void)
 {
 	u8 i;
 	Color_TypeDef temp;
-	temp.B = 0x50;
-	temp.R = 0x60;
-	temp.G = 0xff;
-
+	
+    temp.R = 0x00; //0xFF
+    temp.G = 0xFF;//0x00
+    temp.B = 0xFF;
 	for(i=0;i<60;i++)
 	{
 		WS2812B_WriteColor(&temp);

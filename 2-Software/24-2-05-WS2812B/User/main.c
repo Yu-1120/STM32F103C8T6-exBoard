@@ -15,13 +15,27 @@ int main(void)
 	Color_TypeDef temp;
 	
 	WS2812B_Init();	
-
-
+    WS2812B_Test();
+    temp.R = 0x00;
+	temp.G = 0xff;
+	temp.B = 0x00; //0xff
+	WS2812B_FillColor(10,20,&temp);
 	while(1)
 	{
-
-          WS2812B_Test();
+		Delay_ms(50); 
+        if(temp.R == 0xff){
+            OLED_ShowString(2, 3, "RED!");	
+        
+        }else if(temp.G == 0xff){
+            OLED_ShowString(2, 3, "Green!");	
+        }
+        
+        
+			
+        WS2812B_MovePixel(2);
+        WS2812B_RefreshPixel();
 		
 	}	
+
 
 }
