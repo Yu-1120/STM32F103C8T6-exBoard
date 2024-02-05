@@ -35,24 +35,25 @@ int main(void)
             OLED_ShowNum(3,8,keynum,2);
 		}
        
-        
-		if((!GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_3)) && (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_4)))
-        {
+           if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_3) == 0)
+           {
+                Delay_ms(1);
+                if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_4) == 0)
+                {   
+                    Delay_ms(1);
                     Encoder_Count ++;
                     OLED_ShowNum(2,7,Encoder_Count ,2);
                     OLED_ShowString(4, 1, "++");	
-        }
-
-        
-
+                }
+           }
 #if 0
 
            if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_4) == 0)
             {
-                Delay_ms(20);
+                Delay_ms(1);
                 if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_3) == 0)
                 {
-                    Delay_ms(20);
+                    Delay_ms(1);
                     Encoder_Count --;
                     OLED_ShowNum(2,7,Encoder_Count ,2);
                     OLED_ShowString(4, 1, "--");	
