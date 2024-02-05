@@ -138,9 +138,9 @@ Section Cross References
     main.o(i.main) refers to oled.o(i.OLED_Init) for OLED_Init
     main.o(i.main) refers to oled.o(i.OLED_ShowString) for OLED_ShowString
     main.o(i.main) refers to oled.o(i.OLED_ShowNum) for OLED_ShowNum
+    main.o(i.main) refers to stm32f10x_gpio.o(i.GPIO_ReadInputDataBit) for GPIO_ReadInputDataBit
     main.o(i.main) refers to key.o(i.Key_GetNum) for Key_GetNum
     main.o(i.main) refers to led.o(i.LED1_Turn) for LED1_Turn
-    main.o(i.main) refers to stm32f10x_gpio.o(i.GPIO_ReadInputDataBit) for GPIO_ReadInputDataBit
     main.o(i.main) refers to main.o(.data) for dir
     __main.o(!!!main) refers to __rtentry.o(.ARM.Collect$$rtentry$$00000000) for __rt_entry
     __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) for __rt_entry_li
@@ -911,7 +911,7 @@ Image Symbol Table
     i.SystemInit                             0x080008fc   Section        0  system_stm32f10x.o(i.SystemInit)
     i.UsageFault_Handler                     0x0800095c   Section        0  stm32f10x_it.o(i.UsageFault_Handler)
     i.main                                   0x08000960   Section        0  main.o(i.main)
-    .constdata                               0x08000ac4   Section     1520  oled.o(.constdata)
+    .constdata                               0x08000aac   Section     1520  oled.o(.constdata)
     .data                                    0x20000000   Section       20  main.o(.data)
     .bss                                     0x20000014   Section       96  libspace.o(.bss)
     HEAP                                     0x20000078   Section      512  startup_stm32f10x_md.o(HEAP)
@@ -1099,10 +1099,10 @@ Image Symbol Table
     SysTick_Handler                          0x080008f9   Thumb Code     2  stm32f10x_it.o(i.SysTick_Handler)
     SystemInit                               0x080008fd   Thumb Code    78  system_stm32f10x.o(i.SystemInit)
     UsageFault_Handler                       0x0800095d   Thumb Code     4  stm32f10x_it.o(i.UsageFault_Handler)
-    main                                     0x08000961   Thumb Code   278  main.o(i.main)
-    OLED_F8x16                               0x08000ac4   Data        1520  oled.o(.constdata)
-    Region$$Table$$Base                      0x080010b4   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x080010d4   Number         0  anon$$obj.o(Region$$Table)
+    main                                     0x08000961   Thumb Code   266  main.o(i.main)
+    OLED_F8x16                               0x08000aac   Data        1520  oled.o(.constdata)
+    Region$$Table$$Base                      0x0800109c   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x080010bc   Number         0  anon$$obj.o(Region$$Table)
     KeyNum                                   0x20000000   Data           1  main.o(.data)
     flag                                     0x20000004   Data           4  main.o(.data)
     CW_1                                     0x20000008   Data           1  main.o(.data)
@@ -1120,9 +1120,9 @@ Memory Map of the image
 
   Image Entry point : 0x080000ed
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000010e8, Max: 0x00010000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000010d0, Max: 0x00010000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000010d4, Max: 0x00010000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000010bc, Max: 0x00010000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1185,8 +1185,8 @@ Memory Map of the image
     0x08000242   0x08000242   0x00000000   Code   RO         3682    .text               c_w.l(indicate_semi.o)
     0x08000242   0x08000242   0x00000004   Code   RO         3513    i.BusFault_Handler  stm32f10x_it.o
     0x08000246   0x08000246   0x00000002   Code   RO         3514    i.DebugMon_Handler  stm32f10x_it.o
-    0x08000248   0x08000248   0x00000018   Code   RO         3196    i.Delay_ms          delay.o
-    0x08000260   0x08000260   0x0000002e   Code   RO         3198    i.Delay_us          delay.o
+    0x08000248   0x08000248   0x00000018   Code   RO         3276    i.Delay_ms          delay.o
+    0x08000260   0x08000260   0x0000002e   Code   RO         3278    i.Delay_us          delay.o
     0x0800028e   0x0800028e   0x00000116   Code   RO         1347    i.GPIO_Init         stm32f10x_gpio.o
     0x080003a4   0x080003a4   0x00000012   Code   RO         1351    i.GPIO_ReadInputDataBit  stm32f10x_gpio.o
     0x080003b6   0x080003b6   0x00000012   Code   RO         1353    i.GPIO_ReadOutputDataBit  stm32f10x_gpio.o
@@ -1195,29 +1195,29 @@ Memory Map of the image
     0x080003d0   0x080003d0   0x0000000a   Code   RO         1358    i.GPIO_WriteBit     stm32f10x_gpio.o
     0x080003da   0x080003da   0x00000004   Code   RO         3515    i.HardFault_Handler  stm32f10x_it.o
     0x080003de   0x080003de   0x00000002   PAD
-    0x080003e0   0x080003e0   0x00000034   Code   RO         3253    i.Key_GetNum        key.o
-    0x08000414   0x08000414   0x0000002c   Code   RO         3254    i.Key_Init          key.o
-    0x08000440   0x08000440   0x00000014   Code   RO         3221    i.LED1_ON           led.o
-    0x08000454   0x08000454   0x0000002c   Code   RO         3222    i.LED1_Turn         led.o
-    0x08000480   0x08000480   0x00000034   Code   RO         3223    i.LED_Init          led.o
+    0x080003e0   0x080003e0   0x00000034   Code   RO         3333    i.Key_GetNum        key.o
+    0x08000414   0x08000414   0x0000002c   Code   RO         3334    i.Key_Init          key.o
+    0x08000440   0x08000440   0x00000014   Code   RO         3301    i.LED1_ON           led.o
+    0x08000454   0x08000454   0x0000002c   Code   RO         3302    i.LED1_Turn         led.o
+    0x08000480   0x08000480   0x00000034   Code   RO         3303    i.LED_Init          led.o
     0x080004b4   0x080004b4   0x00000004   Code   RO         3516    i.MemManage_Handler  stm32f10x_it.o
     0x080004b8   0x080004b8   0x00000002   Code   RO         3517    i.NMI_Handler       stm32f10x_it.o
-    0x080004ba   0x080004ba   0x0000002a   Code   RO         3292    i.OLED_Clear        oled.o
-    0x080004e4   0x080004e4   0x00000050   Code   RO         3293    i.OLED_I2C_Init     oled.o
-    0x08000534   0x08000534   0x00000054   Code   RO         3294    i.OLED_I2C_SendByte  oled.o
-    0x08000588   0x08000588   0x00000034   Code   RO         3295    i.OLED_I2C_Start    oled.o
-    0x080005bc   0x080005bc   0x00000028   Code   RO         3296    i.OLED_I2C_Stop     oled.o
-    0x080005e4   0x080005e4   0x000000ae   Code   RO         3297    i.OLED_Init         oled.o
-    0x08000692   0x08000692   0x00000014   Code   RO         3298    i.OLED_Pow          oled.o
-    0x080006a6   0x080006a6   0x00000022   Code   RO         3299    i.OLED_SetCursor    oled.o
-    0x080006c8   0x080006c8   0x00000074   Code   RO         3301    i.OLED_ShowChar     oled.o
-    0x0800073c   0x0800073c   0x00000044   Code   RO         3303    i.OLED_ShowNum      oled.o
-    0x08000780   0x08000780   0x00000028   Code   RO         3305    i.OLED_ShowString   oled.o
-    0x080007a8   0x080007a8   0x00000020   Code   RO         3306    i.OLED_WriteCommand  oled.o
-    0x080007c8   0x080007c8   0x00000020   Code   RO         3307    i.OLED_WriteData    oled.o
+    0x080004ba   0x080004ba   0x0000002a   Code   RO         3372    i.OLED_Clear        oled.o
+    0x080004e4   0x080004e4   0x00000050   Code   RO         3373    i.OLED_I2C_Init     oled.o
+    0x08000534   0x08000534   0x00000054   Code   RO         3374    i.OLED_I2C_SendByte  oled.o
+    0x08000588   0x08000588   0x00000034   Code   RO         3375    i.OLED_I2C_Start    oled.o
+    0x080005bc   0x080005bc   0x00000028   Code   RO         3376    i.OLED_I2C_Stop     oled.o
+    0x080005e4   0x080005e4   0x000000ae   Code   RO         3377    i.OLED_Init         oled.o
+    0x08000692   0x08000692   0x00000014   Code   RO         3378    i.OLED_Pow          oled.o
+    0x080006a6   0x080006a6   0x00000022   Code   RO         3379    i.OLED_SetCursor    oled.o
+    0x080006c8   0x080006c8   0x00000074   Code   RO         3381    i.OLED_ShowChar     oled.o
+    0x0800073c   0x0800073c   0x00000044   Code   RO         3383    i.OLED_ShowNum      oled.o
+    0x08000780   0x08000780   0x00000028   Code   RO         3385    i.OLED_ShowString   oled.o
+    0x080007a8   0x080007a8   0x00000020   Code   RO         3386    i.OLED_WriteCommand  oled.o
+    0x080007c8   0x080007c8   0x00000020   Code   RO         3387    i.OLED_WriteData    oled.o
     0x080007e8   0x080007e8   0x00000002   Code   RO         3518    i.PendSV_Handler    stm32f10x_it.o
     0x080007ea   0x080007ea   0x00000002   PAD
-    0x080007ec   0x080007ec   0x00000020   Code   RO         1777    i.RCC_APB2PeriphClockCmd  stm32f10x_rcc.o
+    0x080007ec   0x080007ec   0x00000020   Code   RO         1857    i.RCC_APB2PeriphClockCmd  stm32f10x_rcc.o
     0x0800080c   0x0800080c   0x00000002   Code   RO         3519    i.SVC_Handler       stm32f10x_it.o
     0x0800080e   0x0800080e   0x00000008   Code   RO           24    i.SetSysClock       system_stm32f10x.o
     0x08000816   0x08000816   0x00000002   PAD
@@ -1226,18 +1226,18 @@ Memory Map of the image
     0x080008fa   0x080008fa   0x00000002   PAD
     0x080008fc   0x080008fc   0x00000060   Code   RO           27    i.SystemInit        system_stm32f10x.o
     0x0800095c   0x0800095c   0x00000004   Code   RO         3521    i.UsageFault_Handler  stm32f10x_it.o
-    0x08000960   0x08000960   0x00000164   Code   RO         3400    i.main              main.o
-    0x08000ac4   0x08000ac4   0x000005f0   Data   RO         3308    .constdata          oled.o
-    0x080010b4   0x080010b4   0x00000020   Data   RO         3735    Region$$Table       anon$$obj.o
+    0x08000960   0x08000960   0x0000014c   Code   RO         3480    i.main              main.o
+    0x08000aac   0x08000aac   0x000005f0   Data   RO         3388    .constdata          oled.o
+    0x0800109c   0x0800109c   0x00000020   Data   RO         3735    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x080010d4, Size: 0x00000678, Max: 0x00005000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x080010bc, Size: 0x00000678, Max: 0x00005000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x080010d4   0x00000014   Data   RW         3401    .data               main.o
+    0x20000000   0x080010bc   0x00000014   Data   RW         3481    .data               main.o
     0x20000014        -       0x00000060   Zero   RW         3609    .bss                c_w.l(libspace.o)
-    0x20000074   0x080010e8   0x00000004   PAD
+    0x20000074   0x080010d0   0x00000004   PAD
     0x20000078        -       0x00000200   Zero   RW            2    HEAP                startup_stm32f10x_md.o
     0x20000278        -       0x00000400   Zero   RW            1    STACK               startup_stm32f10x_md.o
 
@@ -1253,17 +1253,17 @@ Image component sizes
         70          0          0          0          0        946   delay.o
         96         12          0          0          0        968   key.o
        116         16          0          0          0       1341   led.o
-       356         78          0         20          0       1022   main.o
+       332         66          0         20          0        958   main.o
          0          0          0          0          0     201696   misc.o
        814         22       1520          0          0       7689   oled.o
         64         26        236          0       1536        828   startup_stm32f10x_md.o
-       332          0          0          0          0      12993   stm32f10x_gpio.o
+       332          0          0          0          0     214681   stm32f10x_gpio.o
         26          0          0          0          0       3818   stm32f10x_it.o
         32          6          0          0          0        545   stm32f10x_rcc.o
        328         28          0          0          0      10205   system_stm32f10x.o
 
     ----------------------------------------------------------------------
-      2242        188       1788         20       1536     246559   Object Totals
+      2218        176       1788         20       1536     448183   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          8          0          0          0          0          0   (incl. Padding)
 
@@ -1312,15 +1312,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      2520        204       1788         20       1636     245111   Grand Totals
-      2520        204       1788         20       1636     245111   ELF Image Totals
-      2520        204       1788         20          0          0   ROM Totals
+      2496        192       1788         20       1636     446735   Grand Totals
+      2496        192       1788         20       1636     446735   ELF Image Totals
+      2496        192       1788         20          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 4308 (   4.21kB)
+    Total RO  Size (Code + RO Data)                 4284 (   4.18kB)
     Total RW  Size (RW Data + ZI Data)              1656 (   1.62kB)
-    Total ROM Size (Code + RO Data + RW Data)       4328 (   4.23kB)
+    Total ROM Size (Code + RO Data + RW Data)       4304 (   4.20kB)
 
 ==============================================================================
 
