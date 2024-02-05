@@ -138,7 +138,7 @@ int main(void)
 
 
 
-```
+```c
 #include "stm32f10x.h"       
 #include <stdbool.h>
 #include "Delay.h"
@@ -232,6 +232,16 @@ int main(void)
 ```
 
 
+
+[认识EC11旋转编码器&编写驱动程序 - 简书 (jianshu.com)](https://www.jianshu.com/p/41fa67ecb248)
+
+
+
+
+
+
+
+[STM32CubeMX EC11旋转编码器开发心路历程（encode模式 外部中断模式 普通IO口模式 定时器模式探索）___hal_tim_is_tim_counting_down-CSDN博客](https://blog.csdn.net/szm1234/article/details/108510487)
 
 
 

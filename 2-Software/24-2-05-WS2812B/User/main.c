@@ -29,10 +29,11 @@ int main(void)
             OLED_ShowString(2, 3, "Green!");	
         }else if(temp.B == 0xff){
             OLED_ShowString(2, 3, "Blue!");	
+        }else if(temp.B == 0xff){
+            OLED_ShowString(2, 3, "purple!");	
         }
         
         
-			
         WS2812B_MovePixel(2);
         WS2812B_RefreshPixel();
 		
