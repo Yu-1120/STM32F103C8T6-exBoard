@@ -2,6 +2,9 @@
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_VERSION 1)
 cmake_minimum_required(VERSION 3.25)
+####
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O1 -g")
+###
 
 # specify cross-compilers and tools
 set(CMAKE_C_COMPILER arm-none-eabi-gcc)

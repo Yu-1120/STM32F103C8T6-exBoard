@@ -1,0 +1,91 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "D:/VsCode_stm32/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/VsCode_stm32/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.4.1/include",
+						"D:/VsCode_stm32/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.4.1/include-fixed",
+						"D:/VsCode_stm32/gcc-arm-none-eabi/arm-none-eabi/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "D:/VsCode_stm32/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe",
+				"version" : "5.4.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/VsCode_stm32/gcc-arm-none-eabi/arm-none-eabi/include/c++/5.4.1",
+						"D:/VsCode_stm32/gcc-arm-none-eabi/arm-none-eabi/include/c++/5.4.1/arm-none-eabi",
+						"D:/VsCode_stm32/gcc-arm-none-eabi/arm-none-eabi/include/c++/5.4.1/backward",
+						"D:/VsCode_stm32/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.4.1/include",
+						"D:/VsCode_stm32/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.4.1/include-fixed",
+						"D:/VsCode_stm32/gcc-arm-none-eabi/arm-none-eabi/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "D:/VsCode_stm32/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe",
+				"version" : "5.4.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

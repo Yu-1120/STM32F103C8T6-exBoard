@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="STM32F103C8T6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STM32F103C8T6.elf">
+				<Option output="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/STM32F103C8T6.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Inc"/>
+					<Add directory="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/backward"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 STM32F103C8T6.elf"/>
+					<CompileFile command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STM32F103C8T6.elf/fast">
+				<Option output="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/STM32F103C8T6.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Inc"/>
+					<Add directory="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/backward"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="d:\vscode_stm32\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 STM32F103C8T6.elf/fast"/>
+					<CompileFile command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/VsCode_stm32/mingw64/bin/mingw32-make.exe -f &quot;E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Inc/gpio.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Inc/main.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Inc/stm32f1xx_it.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Src/gpio.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Src/main.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Src/stm32f1xx_it.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Src/syscalls.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Src/sysmem.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Src/system_stm32f1xx.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/CMSIS/LICENSE.txt">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/STM32F103C8TX_FLASH.ld">
+			<Option target="STM32F103C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
