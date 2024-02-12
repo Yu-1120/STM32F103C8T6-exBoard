@@ -16,7 +16,7 @@
 
 ## 代码
 
-#### 直接轮询
+### 直接轮询
 
 
 
@@ -176,34 +176,34 @@ int main(void)
             OLED_ShowNum(3,8,keynum,2);
 		}
        
-           if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_3) == 0)
+         if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_3)  !=GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_4) ) 
+         {
+           if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_3) == 1 && GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_4) == 0)
            {
-                Delay_ms(20);
-                if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_4) == 0)
-                {   
-                    Delay_ms(20);
+
+          
                     Encoder_Count ++;
                     OLED_ShowNum(2,7,Encoder_Count ,2);
                     OLED_ShowString(4, 1, "++");	
-                }
+               
            }
-#if 1
+#if 0
 
-           if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_4) == 0)
+           if ((GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_4) == 1) && (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_3) == 0))
             {
-                Delay_ms(20);
-                if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_3) == 0)
-                {
-                    Delay_ms(20);
+           
+        
                     Encoder_Count --;
                     OLED_ShowNum(2,7,Encoder_Count ,2);
                     OLED_ShowString(4, 1, "--");	
-                }
+               
             }
 
 
 #endif           
            
+        }
+
 
         
         
@@ -247,5 +247,9 @@ int main(void)
 
 
 
-#### 中断读取
+### 中断读取
+
+```
+
+```
 
