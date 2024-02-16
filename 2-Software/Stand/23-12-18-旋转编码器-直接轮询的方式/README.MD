@@ -218,18 +218,13 @@ int main(void)
 
 ```
 
-乱码，无法判断左边和右边
+
 
 
 
 [stm32旋转编码器丝滑驱动_stm32驱动编码器-CSDN博客](https://blog.csdn.net/weixin_44777220/article/details/134138998?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-134138998-blog-129387499.235^v43^pc_blog_bottom_relevance_base8&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-134138998-blog-129387499.235^v43^pc_blog_bottom_relevance_base8&utm_relevant_index=5)
 
 
-
-```
-
-
-```
 
 
 
@@ -245,11 +240,12 @@ int main(void)
 
 
 
+#### 总结
+
+乱码，无法判断左边和右边
+
+中断读取也是，直接轮询读取也是
 
 
-### 中断读取
 
-```
-
-```
-
+**硬件问题，硬件上需要去修改**
