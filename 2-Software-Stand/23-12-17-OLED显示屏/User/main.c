@@ -6,11 +6,11 @@ int main(void)
 {
 	/*模块初始化*/
 	OLED_Init();		//OLED初始化
-	
-	/*OLED显示*/
+		/*OLED显示*/
 	OLED_ShowChar(1, 1, 'A');				//1行1列显示字符A
 	
 	OLED_ShowString(1, 3, "HelloWorld!");	//1行3列显示字符串HelloWorld!
+
 	
 //	OLED_ShowNum(2, 1, 12345, 5);			//2行1列显示十进制数字12345，长度为5
 //	
