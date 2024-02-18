@@ -1,3 +1,12 @@
+
+
+# 摇杆单通道--PS2
+
+#### ADC.c
+
+
+
+```c
 #include "stm32f10x.h"                  // Device header
 
 /**
@@ -17,13 +26,12 @@ void AD_Init(void)
 	/*GPIO初始化*/
 	GPIO_InitTypeDef GPIO_InitStructure;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AIN;
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init(GPIOA, &GPIO_InitStructure);					//将PA0引脚初始化为模拟输入
 	
 	/*规则组通道配置*/
-    //2024年2月18日-successfyl
-	ADC_RegularChannelConfig(ADC1, ADC_Channel_1, 1, ADC_SampleTime_55Cycles5);		//规则组序列1的位置，配置为通道0
+	ADC_RegularChannelConfig(ADC1, ADC_Channel_0, 1, ADC_SampleTime_55Cycles5);		//规则组序列1的位置，配置为通道0
 	
 	/*ADC初始化*/
 	ADC_InitTypeDef ADC_InitStructure;						//定义结构体变量
@@ -56,3 +64,42 @@ uint16_t AD_GetValue(void)
 	while (ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC) == RESET);	//等待EOC标志位，即等待AD转换结束
 	return ADC_GetConversionValue(ADC1);					//读数据寄存器，得到AD转换的结果
 }
+
+```
+
+#### main.c
+
+```c
+#include "stm32f10x.h"                  // Device header
+#include "Delay.h"
+#include "OLED.h"
+#include "AD.h"
+
+uint16_t ADValue;			//定义AD值变量
+float Voltage;				//定义电压变量
+
+int main(void)
+{
+	/*模块初始化*/
+	OLED_Init();			//OLED初始化
+	AD_Init();				//AD初始化
+	
+	/*显示静态字符串*/
+	OLED_ShowString(1, 1, "ADValue:");
+	OLED_ShowString(2, 1, "Volatge:0.00V");
+	
+	while (1)
+	{
+		ADValue = AD_GetValue();					//获取AD转换的值
+		Voltage = (float)ADValue / 4095 * 3.3;		//将AD值线性变换到0~3.3的范围，表示电压
+		
+		OLED_ShowNum(1, 9, ADValue, 4);				//显示AD值
+		OLED_ShowNum(2, 9, Voltage, 1);				//显示电压值的整数部分
+		OLED_ShowNum(2, 11, (uint16_t)(Voltage * 100) % 100, 2);	//显示电压值的小数部分
+		
+		Delay_ms(100);			//延时100ms，手动增加一些转换的间隔时间
+	}
+}
+
+```
+
