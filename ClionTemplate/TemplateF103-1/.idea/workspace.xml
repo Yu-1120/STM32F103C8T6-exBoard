@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="TemplateF103" targetName="TemplateF103.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2770aeb-5ddf-4957-b9e7-1a3fa6cd6b93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Core/Inc/LED.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/LED.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stm32f103c8_blue_pill.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Listings/Project.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Listings/startup_stm32f10x_md.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/Project.axf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/Project.build_log.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/Project.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/Project.lnp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/Project.sct" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/Project_Target 1.dep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/core_cm3.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/core_cm3.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/core_cm3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/delay.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/delay.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/delay.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/key.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/key.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/key.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/led.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/led.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/led.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/main.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/main.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/misc.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/misc.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/misc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/oled.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/oled.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/oled.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/serial.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/serial.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/serial.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/startup_stm32f10x_md.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/startup_stm32f10x_md.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_adc.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_adc.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_adc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_bkp.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_bkp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_bkp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_can.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_can.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_can.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_cec.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_cec.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_cec.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_crc.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_crc.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_crc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_dac.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_dac.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_dac.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_dbgmcu.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_dbgmcu.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_dbgmcu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_dma.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_dma.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_dma.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_exti.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_exti.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_exti.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_flash.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_flash.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_flash.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_fsmc.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_fsmc.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_fsmc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_gpio.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_gpio.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_gpio.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_i2c.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_i2c.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_i2c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_it.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_it.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_it.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_iwdg.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_iwdg.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_iwdg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_pwr.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_pwr.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_pwr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_rcc.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_rcc.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_rcc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_rtc.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_rtc.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_rtc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_sdio.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_sdio.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_sdio.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_spi.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_spi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_spi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_tim.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_tim.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_tim.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_usart.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_usart.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_usart.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_wwdg.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_wwdg.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/stm32f10x_wwdg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/system_stm32f10x.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/system_stm32f10x.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2-Software-Stand/9-1 串口发送/Objects/system_stm32f10x.o" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1slSjDPtGEpyqPeubtdr9lqBKQz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/1-Git/STM32F103C8T6-exBorad/ClionTemplate/TemplateF103-1/Core/Src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1-Git\STM32F103C8T6-exBorad\ClionTemplate\TemplateF103-1\Core\Src" />
+      <recent name="E:\1-Git\STM32F103C8T6-exBorad\ClionTemplate\TemplateF103-1\Core\Inc" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103\startup" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103\Core\Inc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103\SYSTEM\Inc" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103\SYSTEM\Src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD TemplateF103">
+    <configuration name="TemplateF103.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TemplateF103" TARGET_NAME="TemplateF103.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TemplateF103" RUN_TARGET_NAME="TemplateF103.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.TemplateF103.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD TemplateF103" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2770aeb-5ddf-4957-b9e7-1a3fa6cd6b93" name="Default Changelist" comment="" />
+      <created>1621445815519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621445815519</updated>
+      <workItem from="1621445836942" duration="7620000" />
+      <workItem from="1621488036855" duration="2207000" />
+      <workItem from="1621697007647" duration="270000" />
+      <workItem from="1621782474505" duration="3105000" />
+      <workItem from="1621817362118" duration="588000" />
+      <workItem from="1622001331308" duration="1942000" />
+      <workItem from="1708268014948" duration="530000" />
+      <workItem from="1708268676437" duration="489000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>
