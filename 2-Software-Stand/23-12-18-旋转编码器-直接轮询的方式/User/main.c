@@ -46,7 +46,7 @@ int main(void)
                     OLED_ShowString(4, 1, "++");	
                
            }
-#if 0
+#if 1
 
            if ((GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_4) == 1) && (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_3) == 0))
             {
