@@ -1,3 +1,0 @@
-C:/Users/CK/Desktop/Stm32Clion/TemplateF103/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir
-C:/Users/CK/Desktop/Stm32Clion/TemplateF103/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/CK/Desktop/Stm32Clion/TemplateF103/cmake-build-debug/CMakeFiles/rebuild_cache.dir
