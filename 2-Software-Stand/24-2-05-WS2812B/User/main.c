@@ -16,8 +16,8 @@ int main(void)
 	
 	WS2812B_Init();	
     WS2812B_Test();
-    temp.R = 0xff;
-	temp.G = 0x00;
+    temp.R = 0x00;
+	temp.G = 0xff;
 	temp.B = 0x00; //0xff
 	WS2812B_FillColor(10,20,&temp);
 	while(1)
@@ -33,9 +33,9 @@ int main(void)
             OLED_ShowString(2, 3, "purple!");	
         }
         
-        
-        WS2812B_MovePixel(2);
-        WS2812B_RefreshPixel();
+//        
+//        WS2812B_MovePixel(2);
+//        WS2812B_RefreshPixel();
 		
 	}	
 

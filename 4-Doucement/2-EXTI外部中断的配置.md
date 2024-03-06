@@ -175,7 +175,7 @@ void EXTI15_10_IRQHandler(void)
 
 ### 修改GPIO口的位置
 
-```
+```C
 GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13  
 ```
 
@@ -185,7 +185,7 @@ GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13
 
 
 
-```
+```C
     /*AFIO选择中断引脚*/
     GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource13);
     
@@ -195,7 +195,7 @@ GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13
 
 ### 选择配置外部中断的14号线
 
-```
+```C
 EXTI_InitStructure.EXTI_Line = EXTI_Line13;        
 ```
 
@@ -203,7 +203,7 @@ EXTI_InitStructure.EXTI_Line = EXTI_Line13;
 
 ### 选择配置NVIC的EXTI15_10线
 
-```
+```C
 NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;        
 ```
 
@@ -211,7 +211,7 @@ NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;
 
 ### EXTI15_10外部中断函数
 
-```
+```C
 void EXTI15_10_IRQHandler(void)
 ```
 
@@ -219,7 +219,7 @@ void EXTI15_10_IRQHandler(void)
 
 ### 中断服务函数处完后需要挂起
 
-```
+```C
 void EXTI15_10_IRQHandler(void)
 {
     if (EXTI_GetITStatus(EXTI_Line13) == SET)        //判断是否是外部中断14号线触发的中断

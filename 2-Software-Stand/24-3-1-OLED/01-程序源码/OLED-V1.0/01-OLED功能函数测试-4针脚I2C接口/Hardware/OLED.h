@@ -17,8 +17,8 @@
 
 
 
-#define OLED_SCL_PIN			GPIO_Pin_8
-#define OLED_SDA_PIN			GPIO_Pin_9
+#define OLED_SCL_PIN			GPIO_Pin_6
+#define OLED_SDA_PIN			GPIO_Pin_7
 /*********************参数宏定义*/
 
 
