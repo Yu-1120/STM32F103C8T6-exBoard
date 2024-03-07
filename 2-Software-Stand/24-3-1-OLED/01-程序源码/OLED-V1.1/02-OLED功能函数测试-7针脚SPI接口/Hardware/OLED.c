@@ -6,8 +6,8 @@
   * 
   * 程序名称：				0.96寸OLED显示屏驱动程序（7针脚SPI接口）
   * 程序创建时间：			2023.10.24
-  * 当前程序版本：			V1.1
-  * 当前版本发布时间：		2023.12.8
+  * 当前程序版本：			V1.0
+  * 当前版本发布时间：		2023.11.22
   * 
   * 江协科技官方网站：		jiangxiekeji.com
   * 江协科技官方淘宝店：	jiangxiekeji.taobao.com
@@ -310,9 +310,6 @@ void OLED_Init(void)
 	OLED_WriteCommand(0x14);
 
 	OLED_WriteCommand(0xAF);	//开启显示
-	
-	OLED_Clear();				//清空显存数组
-	OLED_Update();				//更新显示，清屏，防止初始化后未显示内容时花屏
 }
 
 /**
@@ -739,7 +736,7 @@ void OLED_ShowBinNum(uint8_t X, uint8_t Y, uint32_t Number, uint8_t Length, uint
   * 参    数：Y 指定数字左上角的纵坐标，范围：0~63
   * 参    数：Number 指定要显示的数字，范围：-4294967295.0~4294967295.0
   * 参    数：IntLength 指定数字的整数位长度，范围：0~10
-  * 参    数：FraLength 指定数字的小数位长度，范围：0~9，小数进行四舍五入显示
+  * 参    数：FraLength 指定数字的小数位长度，范围：0~9，过长的小数会有精度丢失
   * 参    数：FontSize 指定字体大小
   *           范围：OLED_8X16		宽8像素，高16像素
   *                 OLED_6X8		宽6像素，高8像素
@@ -748,7 +745,7 @@ void OLED_ShowBinNum(uint8_t X, uint8_t Y, uint32_t Number, uint8_t Length, uint
   */
 void OLED_ShowFloatNum(uint8_t X, uint8_t Y, double Number, uint8_t IntLength, uint8_t FraLength, uint8_t FontSize)
 {
-	uint32_t PowNum, IntNum, FraNum;
+	uint32_t Temp;
 	
 	if (Number >= 0)						//数字大于等于0
 	{
@@ -760,21 +757,18 @@ void OLED_ShowFloatNum(uint8_t X, uint8_t Y, double Number, uint8_t IntLength, u
 		Number = -Number;					//Number取负
 	}
 	
-	/*提取整数部分和小数部分*/
-	IntNum = Number;						//直接赋值给整型变量，提取整数
-	Number -= IntNum;						//将Number的整数减掉，防止之后将小数乘到整数时因数过大造成错误
-	PowNum = OLED_Pow(10, FraLength);		//根据指定小数的位数，确定乘数
-	FraNum = round(Number * PowNum);		//将小数乘到整数，同时四舍五入，避免显示误差
-	IntNum += FraNum / PowNum;				//若四舍五入造成了进位，则需要再加给整数
-	
 	/*显示整数部分*/
-	OLED_ShowNum(X + FontSize, Y, IntNum, IntLength, FontSize);
+	OLED_ShowNum(X + FontSize, Y, Number, IntLength, FontSize);
 	
 	/*显示小数点*/
 	OLED_ShowChar(X + (IntLength + 1) * FontSize, Y, '.', FontSize);
 	
-	/*显示小数部分*/
-	OLED_ShowNum(X + (IntLength + 2) * FontSize, Y, FraNum, FraLength, FontSize);
+	/*将Number的整数部分减掉，防止之后将小数部分乘到整数时因数过大造成错误*/
+	Number -= (uint32_t)Number;
+	
+	/*将小数部分乘到整数部分，并显示*/
+	Temp = OLED_Pow(10, FraLength);
+	OLED_ShowNum(X + (IntLength + 2) * FontSize, Y, ((uint32_t)(Number * Temp)) % Temp, FraLength, FontSize);
 }
 
 /**

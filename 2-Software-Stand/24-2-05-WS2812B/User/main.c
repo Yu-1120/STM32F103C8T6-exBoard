@@ -16,9 +16,9 @@ int main(void)
 	
 	WS2812B_Init();	
     WS2812B_Test();
-    temp.R = 0x00;
-	temp.G = 0xff;
-	temp.B = 0x00; //0xff
+    temp.R = 0xff;
+	temp.G = 0x00;
+	temp.B = 0xff; //0xff
 	WS2812B_FillColor(10,20,&temp);
 	while(1)
 	{
