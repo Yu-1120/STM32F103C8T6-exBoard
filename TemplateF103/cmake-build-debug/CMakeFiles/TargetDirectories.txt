@@ -1,3 +1,0 @@
-E:/ClionTemplate/TemplateF103/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir
-E:/ClionTemplate/TemplateF103/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/ClionTemplate/TemplateF103/cmake-build-debug/CMakeFiles/rebuild_cache.dir
