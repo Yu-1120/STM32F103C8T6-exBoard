@@ -58,10 +58,9 @@ void OLED_GPIO_Init(void)
 }
 ```
 
-**将SCL和SDA引脚初始化为开漏模式**---！！！！2024年3月1日记住
+**将SCL和SDA引脚初始化为开漏模式**---！！！！--2024年3月1日记住
 
 ```
-
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD;
 ```
 
@@ -755,7 +754,7 @@ int main(void)
 
 
 
-## 图书-Abobe ps-取模
+## 图片-PS-取模
 
 https://www.bilibili.com/video/BV1EN41177Pc/?p=2&spm_id_from=pageDriver&vd_source=5e12cc40b4cf9bc1265b996e2d71fa81
 

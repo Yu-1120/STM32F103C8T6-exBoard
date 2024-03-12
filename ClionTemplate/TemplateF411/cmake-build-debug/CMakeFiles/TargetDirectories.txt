@@ -1,0 +1,3 @@
+C:/Users/CK/Desktop/Stm32Clion/TemplateF411/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/CK/Desktop/Stm32Clion/TemplateF411/cmake-build-debug/CMakeFiles/TemplateF411.elf.dir
+C:/Users/CK/Desktop/Stm32Clion/TemplateF411/cmake-build-debug/CMakeFiles/rebuild_cache.dir

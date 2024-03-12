@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="TemplateF411" targetName="TemplateF411.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eeb1f67e-03e5-46fa-877f-8a5a4ee76933" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1swR9wH8LzS7SOcsCNmzA1MLj8s" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OOPF411" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF411\USER\Src" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF411\USER\Inc" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF411\SYSTEM\Src" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF411\SYSTEM\Inc" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF411\CORE\Inc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF411" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD TemplateF411">
+    <configuration name="TemplateF411.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TemplateF411" TARGET_NAME="TemplateF411.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TemplateF411" RUN_TARGET_NAME="TemplateF411.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.TemplateF411.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD TemplateF411" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eeb1f67e-03e5-46fa-877f-8a5a4ee76933" name="Default Changelist" comment="" />
+      <created>1621781517799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621781517799</updated>
+      <workItem from="1621781534898" duration="6173000" />
+      <workItem from="1621817956824" duration="262000" />
+      <workItem from="1621818442147" duration="137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

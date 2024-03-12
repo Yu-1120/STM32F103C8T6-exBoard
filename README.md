@@ -1,4 +1,4 @@
-# STM32F103C8T6-扩展板 
+# STM32F103C8T6-扩展板（第一版）
 
 
 
@@ -6,7 +6,9 @@
 
 https://gitee.com/its-a-slap/STM32F103C8T6-exBorad)
 
-##  
+
+
+### 第二版-硬件电路
 
 
 
@@ -87,10 +89,64 @@ https://gitee.com/its-a-slap/STM32F103C8T6-exBorad)
 
 
 
-## 资料
+## 硬件
+
+
+
+`主控:STM32F103C8T6`
+
+
+### 旋转编码器（代码没调通）
+
+![image.png](//image.lceda.cn/pullimage/sosclFTLFlcKIFLjLxZ80mK9aMJzZ38HfBZAYiNy.png)
+
+### OLED （可以显示）
+
+![image.png](//image.lceda.cn/pullimage/GY5FOspRIGGbTHUdh7eZSfAdxCtoOxGiOQJmi44K.png)
+
+### DHT11（软件上没问题，可以驱动）
+
+软件上没问题，可以驱动
+![image.png](//image.lceda.cn/pullimage/SukKBd1tZpKY6IRWG5TsbaSHHNFJv3r89LgwVzJH.png)
+
+### 旋转编码器
+
+![image.png](//image.lceda.cn/pullimage/hQ7Su4eR6v8qG56VlIBcT8MfJtL9FDRbzVV3prpj.png)
+
+### MPU6050
+
+![image.png](//image.lceda.cn/pullimage/X0Vk56b9s6949I2DqIkaleVQtOTMgwfE6NDb7Ec4.png)
+
+### TP4056
+
+![image.png](//image.lceda.cn/pullimage/lqdBmlNas6H5A1dNnZbYthLJjhZcI1C7eSvYE8AC.png)
+
+###  WS2812B （软件上没问题，可以驱动）
+
+`（可以通过软件去改变颜色）`
+![image.png](//image.lceda.cn/pullimage/Gf8G0WfHpaYbnZPjOB0tyZEWxsNl7AsPupmE5QCw.png)
+
+### W25Q128 （外部储存器）（软件上没问题，可以驱动）
+
+![image.png](//image.lceda.cn/pullimage/zsp9od9lLfqwh04j5bSXcId9DuTmujl4MKNST8Bo.png)
+
+### 无源蜂鸣器（软件上没问题，可以驱动）
+
+![image.png](//image.lceda.cn/pullimage/g5tqBISDHiXbPnebV223J2jSYxADcC69feuKVrsx.png)
+软件上没问题，可以驱动
+
+### 光敏电阻ADC （软件还没写）
+
+![image.png](//image.lceda.cn/pullimage/TuO3HnJbw4BHyzKKZf4c0JstWp1kMYcJrrgP5vC7.png)
+
+### ESP32-01S（软件还没调好）
+
+![image.png](//image.lceda.cn/pullimage/7WKeYXc72zuMANqafeOzLGra5IONaoIjq3ZhrbG8.png)
+连接Onenet
+软件库:
 
 
 
 
 
-##  总结
+##  

@@ -56,9 +56,9 @@ void PWM_Init(void)
 	TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;   //输出使能
 	TIM_OCInitStructure.TIM_Pulse = 0;								//初始的CCR值
 	//TIM_OC3Init(TIM2, &TIM_OCInitStructure);                       
-	TIM_OC2Init(TIM2, &TIM_OCInitStructure);     //将结构体变量交给TIM_OC2Init，配置TIM2的输出比较通道2
+	TIM_OC2Init(TIM2, &TIM_OCInitStructure);    
     TIM_OC3Init(TIM2, &TIM_OCInitStructure);
-	TIM_OC4Init(TIM2, &TIM_OCInitStructure);     //将结构体变量交给TIM_OC2Init，配置TIM2的输出比较通道2
+	TIM_OC4Init(TIM2, &TIM_OCInitStructure);     
       
 	/*TIM使能*/
 	TIM_Cmd(TIM2, ENABLE);			//使能TIM2，定时器开始运行
