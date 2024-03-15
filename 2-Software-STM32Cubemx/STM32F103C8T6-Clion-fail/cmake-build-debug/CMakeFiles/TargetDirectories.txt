@@ -1,3 +1,0 @@
-E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/CMakeFiles/STM32F103C8T6.elf.dir
-E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/1-Git/STM32F103C8T6-exBorad/2-Software/STM32Cubemx/STM32F103C8T6-Clion-fail/cmake-build-debug/CMakeFiles/rebuild_cache.dir
