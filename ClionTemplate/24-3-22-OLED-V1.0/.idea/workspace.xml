@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="TemplateF103" targetName="TemplateF103.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2770aeb-5ddf-4957-b9e7-1a3fa6cd6b93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../24-3-22-DHT11-Usart-OLED-V1/Core/Src/DHT11.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.idea/TemplateF103.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.idea/runConfigurations/OCD_TemplateF103.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.mxproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Inc/LED.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Inc/core_cm3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Inc/stm32f10x.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Inc/stm32f10x_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Inc/stm32f10x_it.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Inc/system_stm32f10x.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Src/LED.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Src/core_cm3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Src/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Src/stm32f10x_it.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/Core/Src/system_stm32f10x.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F103C8Tx_FLASH.ld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/misc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_adc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_bkp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_can.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_cec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_crc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_dac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_dbgmcu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_dma.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_exti.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_flash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_fsmc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_gpio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_i2c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_iwdg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_pwr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_rcc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_rtc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_sdio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_spi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_tim.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_usart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Inc/stm32f10x_wwdg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/misc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_adc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_bkp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_can.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_cec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_crc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_dac.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_dbgmcu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_dma.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_exti.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_flash.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_fsmc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_gpio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_i2c.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_iwdg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_pwr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_rcc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_rtc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_sdio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_spi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_tim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_usart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/STM32F10x_FWLib/Src/stm32f10x_wwdg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/SYSTEM/Inc/delay.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/SYSTEM/Inc/sys.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/SYSTEM/Inc/usart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/SYSTEM/Src/delay.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/SYSTEM/Src/sys.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/SYSTEM/Src/usart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/TemplateF103.ioc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/TemplateF103.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7c36193c5e8dd94aef44.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-001e92e7d8618c51bfcb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f0259e4cbed7377c9c28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-16T16-06-48-0139.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/reply/target-TemplateF103.elf-Debug-5c28a5ccac4ea256baaa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-cbdf0bfe3bd88ee2f3fc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/3.25.2/CMakeASMCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/ASM.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/Core/Src/LED.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/Core/Src/LED.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/Core/Src/core_cm3.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/Core/Src/core_cm3.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/Core/Src/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/Core/Src/stm32f10x_it.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/Core/Src/stm32f10x_it.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/Core/Src/system_stm32f10x.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/Core/Src/system_stm32f10x.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/misc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/misc.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_adc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_adc.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_bkp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_bkp.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_can.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_can.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_cec.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_cec.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_crc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_crc.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_dac.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_dac.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_dbgmcu.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_dbgmcu.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_dma.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_dma.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_exti.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_exti.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_flash.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_flash.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_fsmc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_fsmc.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_gpio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_gpio.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_i2c.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_i2c.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_iwdg.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_iwdg.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_pwr.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_pwr.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_rcc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_rcc.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_rtc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_rtc.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_sdio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_sdio.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_spi.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_spi.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_tim.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_tim.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_usart.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_usart.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_wwdg.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/STM32F10x_FWLib/Src/stm32f10x_wwdg.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/SYSTEM/Src/delay.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/SYSTEM/Src/delay.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/SYSTEM/Src/sys.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/SYSTEM/Src/sys.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/SYSTEM/Src/usart.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/SYSTEM/Src/usart.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/TemplateF103.elf.dir/startup/startup_stm32f103xb.s.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/TemplateF103.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/TemplateF103.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/TemplateF103.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/TemplateF103.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/TemplateF103.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/keilkill.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/startup/startup_stm32f103xb.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LED/stm32f103c8_blue_pill.cfg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1slSjDPtGEpyqPeubtdr9lqBKQz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "Second",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103\startup" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103\Core\Inc" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103\Core\Src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1-Git\STM32F103C8T6-exBorad\ClionTemplate\OLED-V1.0\Core\Inc" />
+      <recent name="E:\1-Git\STM32F103C8T6-exBorad\ClionTemplate\OLED-V1.0\Core\Src" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103\SYSTEM\Inc" />
+      <recent name="C:\Users\CK\Desktop\Stm32Clion\TemplateF103\SYSTEM\Src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD TemplateF103">
+    <configuration name="TemplateF103.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TemplateF103" TARGET_NAME="TemplateF103.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TemplateF103" RUN_TARGET_NAME="TemplateF103.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.TemplateF103.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD TemplateF103" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2770aeb-5ddf-4957-b9e7-1a3fa6cd6b93" name="Default Changelist" comment="" />
+      <created>1621445815519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621445815519</updated>
+      <workItem from="1621445836942" duration="7620000" />
+      <workItem from="1621488036855" duration="2207000" />
+      <workItem from="1621697007647" duration="270000" />
+      <workItem from="1621782474505" duration="3105000" />
+      <workItem from="1621817362118" duration="588000" />
+      <workItem from="1622001331308" duration="1942000" />
+      <workItem from="1709814935094" duration="109000" />
+      <workItem from="1709815394086" duration="309000" />
+      <workItem from="1711085561731" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>

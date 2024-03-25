@@ -1,0 +1,4 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S E:\1-Git\STM32F103C8T6-exBorad\ClionTemplate\OLED-V1.1 -B E:\1-Git\STM32F103C8T6-exBorad\ClionTemplate\OLED-V1.1\cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/1-Git/STM32F103C8T6-exBorad/ClionTemplate/OLED-V1.1/cmake-build-debug

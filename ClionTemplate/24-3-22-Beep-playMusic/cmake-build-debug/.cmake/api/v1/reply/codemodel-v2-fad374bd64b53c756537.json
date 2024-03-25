@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TemplateF103",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TemplateF103.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TemplateF103.elf-Debug-b731b9b5561b8d7285ad.json",
+					"name" : "TemplateF103.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/1-Git/STM32F103C8T6-exBorad/ClionTemplate/24-3-22-\u65e0\u6e90\u8702\u9e23\u5668-\u64ad\u653e\u97f3\u4e50/cmake-build-debug",
+		"source" : "E:/1-Git/STM32F103C8T6-exBorad/ClionTemplate/24-3-22-\u65e0\u6e90\u8702\u9e23\u5668-\u64ad\u653e\u97f3\u4e50"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
